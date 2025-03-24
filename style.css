@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Bhaina+2:wght@400..800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+body{
+    font-family: "Baloo Bhaijaan 2", serif;
+    background-color:  rgb(34, 32, 32);
+    overflow-x: hidden;
+
+}
+nav{
+    position: fixed relative;
+    top: 0px;
+    background-color: rgb(34, 32, 32);
+    height: 63px;
+    width: 100%;
+    border-bottom: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    overflow: hidden;
+    z-index: 1000;
+    
+     
+}
+nav .logo{
+    font-size: 45px;
+    color: green;
+    font-weight: bold;
+    margin-left: 60px;
+    letter-spacing: 4px;
+}
+nav ul{
+   display: flex;
+}
+nav ul li{
+    margin-right: 90px;
+
+}
+nav ul li a{
+    /* background-color: aqua; */
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 2rem;
+    color: white;
+    
+}
+nav ul li a:hover{
+    color: green;
+    text-decoration: underline solid green;
+}
+.hello{
+    color: white;
+}
+main{
+    margin: 0 60px;
+}
+.container{
+    margin-top: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+img{
+    height: 300px;
+    width :auto ;
+    border-radius: 50%;
+}
+section{
+    padding: 20px 60px;
+    /* height: 100vh; */
+}
+.mcon{
+    margin-top: 30px;
+    text-align: center ;
+    color: green;
+}
+/* Main Container */
+.contact_container {
+width: 80vw;
+height: 80vh;
+/* display: grid; */
+/* grid-template-columns: 1fr 1fr; */
+display: flex;
+margin: auto;
+gap: 20px;
+background-color: rgb(34, 32, 32);
+padding: 20px;
+border-radius: 10px;
+/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.contact-info, .contact {
+background-color: rgb(61, 59, 59);
+width: 35vw;
+padding: 20px;
+/* margin: auto; */
+border-radius: 10px;
+}
+.contact img{
+    height: 100px;
+    width: auto;
+}
+
+.contact h2 {
+    padding: 70px 0;
+color: green;
+margin-bottom: 15px;
+}
+
+.contact-info form {
+display: flex;
+flex-direction: column;
+}
+
+.contact-info label {
+margin: 10px 0 5px;
+color: white;
+}
+
+.contact-info input, 
+.contact-info textarea {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 100%;
+background-color: #f0f0f0;
+}
+
+.contact_contact-info textarea {
+resize: none;
+height: 100px;
+}
+
+.contact-info button {
+margin-top: 15px;
+padding: 10px;
+background-color: rgb(34, 32, 32);
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.contact-info button:hover {
+background-color: darkgreen;
+}
+
+.contact p {
+color: white;
+margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+.contact-container {
+flex-direction: column;
+} 
+} 
+.social_link{
+color: white;
+}
+/* start Education Section from hear */
+.Education {
+    text-align: center;
+    padding: 5px 0;
+    color: green;
+}
+.edu_con{
+    text-align: center;
+    color: white;
+}
+.edu_container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: blue; */
+    /* height: 80vh; */
+    width: 80vw;
+    gap: 24px;
+    margin: auto;
+}
+.bachelor, .high, .inter{
+    padding: 23px 22px;
+    margin: 24px 0px;
+    height: 50vh;
+    background-color: rgb(61, 59, 59);
+    border-radius: 10px;
+}
+.high, .bachelor, .inter, h2 {
+        color: green;
+  
+}
+.high, .bachelor, .inter, h3{
+    color: white;
+}
+
+
+/*================================================= 
+=========Start Sill section from here==============
+===================================================== */
+.Skills {
+    text-align: center;
+    color: green;
+}
+.h2Skills{
+    color: white;
+     text-align: center;
+}
+.html_container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+                max-width: 50vw;
+                margin: auto;
+                margin-top: 20px;
+}
+.html{
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color:rgb(61, 59, 59) ;
+    padding: 20px 20px;
+    align-items: center;
+}
+.html h3{
+    color: green;
+    margin-left: 20px;
+}
+.html meter{
+     margin-left: 20px;
+     /* background-color: rgb(61, 59, 59); */
+}
+.html span{
+    color: white;
+}
+/* .html img{
+    height: 20px;
+    width: 20px;
+} */
+.sapration{
+    margin-top: 60px;
+    height: 5px;
+    background-color: green;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 50vw;
+    margin: auto;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+.about h1{
+    text-align: center;
+
+    color: green;
+}
+.about_me p{
+    margin-left: 20px;
+    color: rgb(61, 59, 59);
+}
+.link h2 {
+    margin-left: 40px;
+    color: green;
+}
+.follow_us svg{
+    margin-left: 40px;
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-family:"Baloo Bhaijaan 2";
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+.dv_logo{
+    height: auto;
+    shape-outside: circle(50%);
+}
